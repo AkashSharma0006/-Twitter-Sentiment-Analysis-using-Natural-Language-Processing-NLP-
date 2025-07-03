@@ -52,4 +52,18 @@ This project performs **Sentiment Analysis on Twitter data** using **Natural Lan
 ---
 
 ## 📁 Project Structure
+📦Twitter-Sentiment-Analysis-NB
+│
+├── app.py # Streamlit App
+├── trained_model.pkl # Trained Naive Bayes Model
+├── tfidf_vectorizer.pkl # TF-IDF Vectorizer
+├── sentiment140.zip # Raw Dataset (Optional)
+├── data_preprocessing.ipynb # Model Training Notebook
+└── README.md # Project README
+
+📊 Model Performance
+Metric	Score
+Train Accuracy	~79%
+Test Accuracy	~77%
+Algorithm	MultinomialNB
 
